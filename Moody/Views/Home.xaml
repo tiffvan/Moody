@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Moody.Views.Home" Title="Moody">
+    <ContentPage.Content>
+        <StackLayout>
+            <ImageButton Source="button-newMood.png" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="200" WidthRequest="200" Margin="0,120,0,0" Clicked="OnButtonClickNewMood"/>
+            <ImageButton Source="button-history.png" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="200" WidthRequest="200" Margin="0,70,0,0" Clicked="OnButtonClickHistory"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
