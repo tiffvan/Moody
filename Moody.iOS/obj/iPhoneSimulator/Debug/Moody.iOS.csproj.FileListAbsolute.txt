@@ -136,3 +136,4 @@
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/Moody.iOS.exe
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/Moody.iOS.pdb
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/button-history.png
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/splash.png

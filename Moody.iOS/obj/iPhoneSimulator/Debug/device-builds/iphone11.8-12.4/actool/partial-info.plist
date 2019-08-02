@@ -8,31 +8,24 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>AppIcon20x20</string>
-				<string>AppIcon29x29</string>
-				<string>AppIcon40x40</string>
 				<string>AppIcon60x60</string>
 			</array>
 			<key>CFBundleIconName</key>
 			<string>AppIcon</string>
 		</dict>
 	</dict>
-	<key>CFBundleIcons~ipad</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
+	<key>UILaunchImages</key>
+	<array>
 		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string>AppIcon20x20</string>
-				<string>AppIcon29x29</string>
-				<string>AppIcon40x40</string>
-				<string>AppIcon60x60</string>
-				<string>AppIcon76x76</string>
-				<string>AppIcon83.5x83.5</string>
-			</array>
-			<key>CFBundleIconName</key>
-			<string>AppIcon</string>
+			<key>UILaunchImageMinimumOSVersion</key>
+			<string>7.0</string>
+			<key>UILaunchImageName</key>
+			<string>LaunchImage-700-568h</string>
+			<key>UILaunchImageOrientation</key>
+			<string>Portrait</string>
+			<key>UILaunchImageSize</key>
+			<string>{320, 568}</string>
 		</dict>
-	</dict>
+	</array>
 </dict>
 </plist>
