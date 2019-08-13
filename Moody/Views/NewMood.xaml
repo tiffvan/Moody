@@ -1,16 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Moody.Views.NewMood" Title="Add a new mood">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Moody.Views.NewMood"
+             Title="Add a new mood">
     <ContentPage.Resources>
-            <ResourceDictionary>
-                 <Style TargetType=":Entry">
-                <Setter Property="WidthRequest" Value="300" />
+        <ResourceDictionary>
+            <Style TargetType=":Entry">
+                <Setter Property="WidthRequest"
+                        Value="300" />
             </Style>
-            </ResourceDictionary>
-        </ContentPage.Resources>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
             <StackLayout>
-                <Label Text="Pick your mood" FontSize="Large" HorizontalTextAlignment="Center" Margin="0,30,15,0"/>
+                <Label Text="Pick your mood"
+                       FontSize="Large"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,30,15,0" />
                 <StackLayout Margin="45,10,45,0">
                     <Grid Margin="0,15,0,0">
                         <Grid.RowDefinitions>
@@ -28,39 +35,78 @@
                             <ColumnDefinition Width="30" />
                         </Grid.ColumnDefinitions>
                         <StackLayout Grid.Row="0" Grid.Column="1">
-                            <ImageButton Source="mood-happy.png" HeightRequest="60" WidthRequest="60" />
+                            <ImageButton x:Name="moodHappy" Source="mood-happy.png" HeightRequest="60" WidthRequest="60" />
                             <Label Text="Happy" HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <StackLayout Grid.Row="0" Grid.Column="3">
-                            <ImageButton Source="mood-sad.png" HeightRequest="60" WidthRequest="60" />
+                            <ImageButton x:Name="moodSad" Source="mood-sad.png" HeightRequest="60" WidthRequest="60" />
                             <Label Text="Sad" HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <StackLayout Grid.Row="0" Grid.Column="5">
-                            <ImageButton Source="mood-angry.png" HeightRequest="60" WidthRequest="60" />
+                            <ImageButton x:Name="moodAngry" Source="mood-angry.png" HeightRequest="60" WidthRequest="60" />
                             <Label Text="Angry" HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <StackLayout Grid.Row="1" Grid.Column="1">
-                            <ImageButton Source="mood-sick.png" HeightRequest="60" WidthRequest="60" />
+                            <ImageButton x:Name="moodSick" Source="mood-sick.png" HeightRequest="60" WidthRequest="60" />
                             <Label Text="Sick" HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <StackLayout Grid.Row="1" Grid.Column="3">
-                            <ImageButton Source="mood-irritated.png" HeightRequest="60" WidthRequest="60" />
+                            <ImageButton x:Name="moodIrritated" Source="mood-irritated.png" HeightRequest="60" WidthRequest="60" />
                             <Label Text="Irritated" HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <StackLayout Grid.Row="1" Grid.Column="5">
-                            <ImageButton Source="mood-bleh.png" HeightRequest="60" WidthRequest="60" />
+                            <ImageButton x:Name="moodBleh" Source="mood-bleh.png" HeightRequest="60" WidthRequest="60" />
                             <Label Text="Bleh" HorizontalTextAlignment="Center" />
                         </StackLayout>
                     </Grid>
                 </StackLayout>
             </StackLayout>
             <StackLayout Margin="0,100,0,0">
-                <Label Text="What happenend today?" FontSize="Large" HorizontalTextAlignment="Center" />
-                <Entry PlaceholderColor="Gray" Placeholder="What is up?" HeightRequest="40" Margin="0,15,0,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+                <Label Text="What happenend today?"
+                       FontSize="Large"
+                       HorizontalTextAlignment="Center" />
+                <Entry x:Name="todayQuestion"
+                       PlaceholderColor="Gray"
+                       Placeholder="What is up?"
+                       HeightRequest="40"
+                       Margin="0,15,0,0"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="CenterAndExpand" />
             </StackLayout>
             <StackLayout>
-                <Button Text="Add mood" HeightRequest="40" WidthRequest="100" Margin="0,20,0,0" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="#ffd200"/>
+                <Button x:Name="addStore"
+                        Clicked="AddStore_Clicked"
+                        Text="Add mood"
+                        HeightRequest="40"
+                        WidthRequest="100"
+                        Margin="0,20,0,0"
+                        TextColor="Black"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        BackgroundColor="#ffd200" />
             </StackLayout>
+            <StackLayout x:Name="showStack">
+                <Button x:Name="showStore"
+                        Clicked="ShowStored_Clicked"
+                        Text="Show stuff"
+                        HeightRequest="40"
+                        WidthRequest="100"
+                        Margin="0,20,0,0"
+                        TextColor="Black"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        BackgroundColor="#ffd200" />
+            </StackLayout>
+            <StackLayout>
+                <!--<Label x:Name="lblMood"
+                       Text=""
+                       HorizontalTextAlignment="Center"></Label>-->
+                <Label x:Name="lblTodayQuestion"
+                       Text=""
+                       HorizontalTextAlignment="Center"></Label>
+            </StackLayout>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -69,6 +69,12 @@
 /Users/tiffanyvandermerwe/Projects/Dev303/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/background.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/Moody.iOS.exe
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/Moody.iOS.pdb
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/CommonServiceLocator.dll
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.Extras.dll
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.Extras.pdb
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.Platform.dll
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.dll
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/GalaSoft.MvvmLight.pdb
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
@@ -119,7 +125,6 @@
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/_BundleResourceWithLogicalName.items
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/coremlc/_PartialAppManifest.items
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/coremlc/_BundleResourceWithLogicalName.items
-/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/button-newMood.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/mood-angry.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/mood-bleh.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/mood-happy.png
@@ -128,6 +133,9 @@
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/mood-sick.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/mood-tired.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/background.png
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/button-history.png
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/button-newMood.png
+/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/splash.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/Moody.iOS.csprojAssemblyReference.cache
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/Moody.iOS.csproj.CoreCompileInputs.cache
@@ -135,5 +143,3 @@
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/Moody.iOS.csproj.CopyComplete
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/Moody.iOS.exe
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/Moody.iOS.pdb
-/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/button-history.png
-/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/splash.png

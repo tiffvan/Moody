@@ -94,6 +94,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MvvmLight": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
