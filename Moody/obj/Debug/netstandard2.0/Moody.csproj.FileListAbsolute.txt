@@ -31,3 +31,4 @@
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Moody.dll
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/ref/Moody.dll
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Moody.pdb
+/Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Moody.csprojAssemblyReference.cache

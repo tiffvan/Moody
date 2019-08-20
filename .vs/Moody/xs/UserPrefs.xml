@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{4B828B69-1303-42C3-A5B3-B81B35A8B454}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Moody/Views/NewMood.xaml.cs">
     <Files>
-      <File FileName="Moody/Views/NewMood.xaml" Line="88" Column="45" />
-      <File FileName="Moody/Views/NewMood.xaml.cs" Line="26" Column="35" />
+      <File FileName="Moody/Views/NewMood.xaml" Line="130" Column="31" />
+      <File FileName="Moody/Views/NewMood.xaml.cs" Line="112" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,9 +11,7 @@
             <Node name="Moody" expanded="True">
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="NewMood.xaml" expanded="True">
-                  <Node name="NewMood.xaml.cs" selected="True" />
-                </Node>
+                <Node name="NewMood.xaml.cs" selected="True" />
               </Node>
             </Node>
             <Node name="Moody.iOS" expanded="True">
@@ -24,7 +22,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Moody.Android FirstBuild="True" PreferredExecutionTarget="Android.Pixel_2_XL_API_Q" />
+  <MonoDevelop.Ide.ItemProperties.Moody.Android PreferredExecutionTarget="Android.Pixel_2_XL_API_Q" />
   <MonoDevelop.Ide.ItemProperties.Moody.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CD4361A2-1AA3-4F3A-930B-5090F59E9205" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
