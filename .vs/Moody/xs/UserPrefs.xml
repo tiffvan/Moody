@@ -1,21 +1,21 @@
 ﻿<Properties StartupConfiguration="{4B828B69-1303-42C3-A5B3-B81B35A8B454}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Moody/Views/NewMood.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Moody/Views/NewMood.xaml">
     <Files>
-      <File FileName="Moody/Views/NewMood.xaml" Line="130" Column="31" />
-      <File FileName="Moody/Views/NewMood.xaml.cs" Line="112" Column="10" />
+      <File FileName="Moody/Views/NewMood.xaml" Line="145" Column="17" />
+      <File FileName="Moody/Views/NewMood.xaml.cs" />
+      <File FileName="Moody/Views/summaryInsights.xaml.cs" />
+      <File FileName="Moody/Views/summaryInsights.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Moody" expanded="True">
             <Node name="Moody" expanded="True">
-              <Node name="ViewModels" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="NewMood.xaml.cs" selected="True" />
+                <Node name="NewMood.xaml" expanded="True" selected="True" />
+                <Node name="summaryInsights.xaml" expanded="True" />
               </Node>
-            </Node>
-            <Node name="Moody.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
             </Node>
           </Node>
         </State>

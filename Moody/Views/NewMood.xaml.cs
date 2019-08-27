@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
+using Moody;
 
 namespace Moody.Views
 {
@@ -10,16 +10,16 @@ namespace Moody.Views
 
         public List<Image> storedImages = new List<Image>();
 
+        public Image selectedImage;
+
         public NewMood()
         {
             InitializeComponent();
             StoreImages();
-
-            addStore.Clicked += AddStore_Clicked;
-            showStore.Clicked += ShowStored_Clicked;
         }
 
-        private void StoreImages()
+        //where images are coming from
+        public void StoreImages()
         {
             StoreImage("mood-happy.png");
             StoreImage("mood-sad.png");
@@ -29,76 +29,65 @@ namespace Moody.Views
             StoreImage("mood-bleh.png");
         }
 
-        private void StoreImage(string imageName)
+        //show images
+        public void StoreImage(string imageName)
         {
             storedImages.Add(new Image());
             storedImages[storedImages.Count - 1].Source = ImageSource.FromFile(imageName);
         }
 
-        private void AddStore_Clicked(object sender, EventArgs e)
+        //adds to storage button
+        public void AddStore_Clicked(object sender, EventArgs e)
         {
-            // Store all these values
-            Application.Current.Properties["MoodHappy"] = moodHappy.IsPressed;
-            Application.Current.Properties["MoodSad"] = moodSad.IsPressed;
-            Application.Current.Properties["MoodAngry"] = moodAngry.IsPressed;
-            Application.Current.Properties["MoodSick"] = moodSick.IsPressed;
-            Application.Current.Properties["MoodIrritated"] = moodIrritated.IsPressed;
-            Application.Current.Properties["MoodBleh"] = moodBleh.IsPressed;
 
+            //THIS IS MY "SAVING"
             Application.Current.Properties["TodayQuestion"] = todayQuestion.Text;
-            todayQuestion.Text = string.Empty;
 
 
-
-            //Console.WriteLine("Tell me something: " + showStack.Children[0]); 
+            //ANDREA
+            //Application.Current.SavePropertiesAsync;
 
 
             DisplayAlert("Success", "Mood has been added!", "OK");
 
+            Navigation.PushAsync(new summaryInsights());
         }
 
-        private void ShowStored_Clicked(object sender, EventArgs e)
+        //shows what i've stored
+        public void ShowStored_Clicked(object sender, EventArgs e)
         {
-            //Get all stored values  
-            if (Application.Current.Properties.ContainsKey("MoodHappy"))
-            {
-                //lblMood.Text = Application.Current.Properties["MoodHappy"].ToString();
-                lblTodayQuestion.Text = Application.Current.Properties["TodayQuestion"].ToString();
-                AddMoodImage(0);
-            }
-            if (Application.Current.Properties.ContainsKey("MoodSad"))
-            {
-                //lblMood.Text = Application.Current.Properties["MoodSad"].ToString();
-                lblTodayQuestion.Text = Application.Current.Properties["TodayQuestion"].ToString();
-                AddMoodImage(1);
-            }
-            if (Application.Current.Properties.ContainsKey("MoodAngry"))
-            {
-                //lblMood.Text = Application.Current.Properties["MoodAngry"].ToString();
-                lblTodayQuestion.Text = Application.Current.Properties["TodayQuestion"].ToString();
-                AddMoodImage(2);
-            }
-            if (Application.Current.Properties.ContainsKey("MoodSick"))
-            {
-                //lblMood.Text = Application.Current.Properties["MoodSick"].ToString();
-                lblTodayQuestion.Text = Application.Current.Properties["TodayQuestion"].ToString();
-                AddMoodImage(3);
-            }
-            if (Application.Current.Properties.ContainsKey("MoodIrritated"))
-            {
-                //lblMood.Text = Application.Current.Properties["MoodIrritated"].ToString();
-                lblTodayQuestion.Text = Application.Current.Properties["TodayQuestion"].ToString();
-                AddMoodImage(4);
-            }
-            if (Application.Current.Properties.ContainsKey("MoodBleh"))
-            {
-                //lblMood.Text = Application.Current.Properties["MoodBleh"].ToString();
-                lblTodayQuestion.Text = Application.Current.Properties["TodayQuestion"].ToString();
-                AddMoodImage(5);
-            }
+            lblTodayQuestion.Text = Application.Current.Properties["TodayQuestion"].ToString();
+            DisplayMoodImage(selectedImage);
         }
 
-        private void AddMoodImage(int imageNumber)
+        //saving clicked mood
+        public void Happy_Pressed(object sender, EventArgs e)
+        {
+            selectedImage = storedImages[0];
+        }
+        public void Sad_Pressed(object sender, EventArgs e)
+        {
+            selectedImage = storedImages[1];
+        }
+        public void Angry_Pressed(object sender, EventArgs e)
+        {
+            selectedImage = storedImages[2];
+        }
+        public void Sick_Pressed(object sender, EventArgs e)
+        {
+            selectedImage = storedImages[3];
+        }
+        public void Irritated_Pressed(object sender, EventArgs e)
+        {
+            selectedImage = storedImages[4];
+        }
+        public void Bleh_Pressed(object sender, EventArgs e)
+        {
+            selectedImage = storedImages[5];
+        }
+
+        //displaying mood image at bottom
+        public void DisplayMoodImage(Image image)
         {
             ImageButton imageButton = new ImageButton
             {
@@ -106,9 +95,31 @@ namespace Moody.Views
                 VerticalOptions = LayoutOptions.Center,
                 HeightRequest = 20,
                 WidthRequest = 20,
-                Source = storedImages[imageNumber].Source
+                Source = image.Source
             };
             showStack.Children.Add(imageButton);
+        }
+
+        //Remove
+        private void BtnRemove(object sender, EventArgs e)
+        {
+            if (Application.Current.Properties.ContainsKey("TodayQuestion"))
+            {
+                Application.Current.Properties.Remove("TodayQuestion");
+                Application.Current.Properties.Remove("MoodHappy");
+                Application.Current.Properties.Remove("MoodSad");
+                Application.Current.Properties.Remove("MoodSick");
+                Application.Current.Properties.Remove("MoodAngry");
+                Application.Current.Properties.Remove("MoodIrritated");
+                Application.Current.Properties.Remove("MoodBleh");
+                ClearAll();
+                DisplayAlert("Success", "Removed", "OK");
+            }
+        }
+
+        public void ClearAll()
+        {
+            lblTodayQuestion.Text = string.Empty;
         }
     }
 }
