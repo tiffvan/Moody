@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Moody.Views.History"
              Title="History">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="HomeButton"
+                     Text="Home"
+                     Clicked="HomeButton"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ListView ItemsSource="{Binding HistoryItems}" HasUnevenRows="True" SeparatorVisibility="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <ListView.ItemTemplate>

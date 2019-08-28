@@ -9,6 +9,12 @@ namespace Moody.Views
         public History()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
+        }
+
+        public void HomeButton(object o, EventArgs e)
+        {
+            Navigation.PushAsync(new Home());
         }
     }   
 }

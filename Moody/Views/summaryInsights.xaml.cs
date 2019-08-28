@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Moody.Views;
-
-
 using Xamarin.Forms;
 
 namespace Moody.Views
@@ -13,16 +10,28 @@ namespace Moody.Views
         public summaryInsights()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
+
+            foreach (var keyValuePair in Application.Current.Properties)
+            {
+
+                if (keyValuePair.Key.EndsWith("_questionData", StringComparison.Ordinal))
+                {
+                    lblTodayQuestion.Text = keyValuePair.Value.ToString();
+                }
+
+                if (keyValuePair.Key.EndsWith("_moodImage", StringComparison.Ordinal))
+                {
+                    imageMood.Source = NewMood.storedImages[(int)keyValuePair.Value].Source;
+                }
+              
+
+            }
         }
 
-        public void ShowStored(object sender, EventArgs e)
+        public void DoneButton(object o, EventArgs e)
         {
-
-            //lblTodayQuestion.Text = Application.Current.Properties["TodayQuestion"].ToString();
-
-
-            //SUPPOSED SAVED DATA TEXT
-            Application.Current.Properties["TodayQuestion"] = lblTodayQuestion.Text;
+            Navigation.PushAsync(new History());
         }
     }
 }

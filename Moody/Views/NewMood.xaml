@@ -37,7 +37,7 @@
                         <!-- HAPPY -->
                         <StackLayout Grid.Row="0"
                                      Grid.Column="1">
-                          <ImageButton x:Name="moodHappy"
+                            <ImageButton x:Name="moodHappy"
                                          Pressed="Happy_Pressed"
                                          Source="mood-happy.png"
                                          HeightRequest="60"
@@ -103,6 +103,8 @@
                     </Grid>
                 </StackLayout>
             </StackLayout>
+
+
             <!-- QUESTION -->
             <StackLayout Margin="0,100,0,0">
                 <Label Text="What happenend today?"
@@ -116,6 +118,7 @@
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="CenterAndExpand" />
             </StackLayout>
+            
             <!-- ADD BUTTON -->
             <StackLayout>
                 <Button x:Name="addStore"
@@ -129,23 +132,7 @@
                         VerticalOptions="CenterAndExpand"
                         BackgroundColor="#ffd200" />
             </StackLayout>
-            <!-- SHOW BUTTON -->
-            <StackLayout x:Name="showStack">
-                <Button x:Name="showStore"
-                        Clicked="ShowStored_Clicked"
-                        Text="Show stuff"
-                        HeightRequest="40"
-                        WidthRequest="100"
-                        Margin="0,20,0,0"
-                        TextColor="Black"
-                        HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        BackgroundColor="#ffd200" />
-                <!-- REMOVE BUTTON -->
-                <Button x:Name="btnRemove"
-                        Text="Remove"
-                        Clicked="BtnRemove"></Button>
-            </StackLayout>
+
             <StackLayout>
                 <Label x:Name="lblMood"
                        Text=""

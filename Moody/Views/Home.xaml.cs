@@ -10,6 +10,7 @@ namespace Moody.Views
         public Home()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
         }
 
         public void OnButtonClickNewMood(object o, EventArgs e)
