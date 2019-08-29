@@ -103,8 +103,6 @@
                     </Grid>
                 </StackLayout>
             </StackLayout>
-
-
             <!-- QUESTION -->
             <StackLayout Margin="0,100,0,0">
                 <Label Text="What happenend today?"
@@ -118,7 +116,6 @@
                        HorizontalOptions="CenterAndExpand"
                        VerticalOptions="CenterAndExpand" />
             </StackLayout>
-            
             <!-- ADD BUTTON -->
             <StackLayout>
                 <Button x:Name="addStore"

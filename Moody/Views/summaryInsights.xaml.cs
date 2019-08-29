@@ -7,6 +7,9 @@ namespace Moody.Views
     public partial class summaryInsights : ContentPage
     {
 
+        public string insight;
+        public int selectedImageNumber;
+
         public summaryInsights()
         {
             InitializeComponent();
@@ -15,7 +18,7 @@ namespace Moody.Views
             foreach (var keyValuePair in Application.Current.Properties)
             {
 
-                if (keyValuePair.Key.EndsWith("_questionData", StringComparison.Ordinal))
+                if ((keyValuePair.Value != null) && keyValuePair.Key.EndsWith("_questionData", StringComparison.Ordinal))
                 {
                     lblTodayQuestion.Text = keyValuePair.Value.ToString();
                 }
@@ -24,7 +27,11 @@ namespace Moody.Views
                 {
                     imageMood.Source = NewMood.storedImages[(int)keyValuePair.Value].Source;
                 }
-              
+
+                if (keyValuePair.Key.EndsWith("_insightText", StringComparison.Ordinal))
+                {
+                    lblInsight.Text = keyValuePair.Value.ToString();
+                }
 
             }
         }

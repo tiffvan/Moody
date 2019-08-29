@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{4B828B69-1303-42C3-A5B3-B81B35A8B454}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Moody/Views/summaryInsights.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Moody/Views/NewMood.xaml.cs">
     <Files>
-      <File FileName="Moody/Views/NewMood.xaml" Line="134" Column="27" />
-      <File FileName="Moody/Views/summaryInsights.xaml.cs" Line="28" Column="92" />
-      <File FileName="Moody/Views/NewMood.xaml.cs" Line="12" Column="1" />
-      <File FileName="Moody/Views/summaryInsights.xaml" Line="14" Column="76" />
+      <File FileName="Moody/Views/summaryInsights.xaml" Line="32" Column="38" />
+      <File FileName="Moody/Views/NewMood.xaml.cs" Line="68" Column="92" />
+      <File FileName="Moody/Views/summaryInsights.xaml.cs" Line="33" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +14,13 @@
               <Node name="Views" expanded="True">
                 <Node name="History.xaml" expanded="True" />
                 <Node name="Home.xaml" expanded="True" />
-                <Node name="NewMood.xaml" expanded="True" />
-                <Node name="summaryInsights.xaml" expanded="True" selected="True" />
+                <Node name="NewMood.xaml" expanded="True">
+                  <Node name="NewMood.xaml.cs" selected="True" />
+                </Node>
+                <Node name="summaryInsights.xaml" expanded="True" />
               </Node>
             </Node>
+            <Node name="Moody.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

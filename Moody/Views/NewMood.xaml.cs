@@ -10,6 +10,7 @@ namespace Moody.Views
         public static List<Image> storedImages = new List<Image>();
 
         public int selectedImageNumber;
+        public string insight;
 
         public NewMood()
         {
@@ -50,18 +51,6 @@ namespace Moody.Views
         }
 
 
-        void AddMood()
-        {
-            //DisplayMoodImage(selectedImage);
-            //Source = image.Source;
-
-
-
-            //Application.Current.SavePropertiesAsync();
-
-        }
-
-
         void AddQuestion()
         {
 
@@ -77,6 +66,9 @@ namespace Moody.Views
 
             Application.Current.Properties[entryDate + "_questionData"] = questionData;
             Application.Current.Properties[entryDate + "_moodImage"] = selectedImageNumber;
+            //Application.Current.Properties[entryDate + "_insightText"] = insight;
+
+            Application.Current.Properties["_insightText"].ToString();
 
 
             //save to local storage
@@ -84,37 +76,75 @@ namespace Moody.Views
         }
 
 
-
         //saving clicked mood
         public void Happy_Pressed(object sender, EventArgs e)
         {
-            //selectedImage = storedImages[0];
             selectedImageNumber = 0;
         }
         public void Sad_Pressed(object sender, EventArgs e)
         {
-            //selectedImage = storedImages[1];
             selectedImageNumber = 1;
         }
         public void Angry_Pressed(object sender, EventArgs e)
         {
-            //selectedImage = storedImages[2];
             selectedImageNumber = 2;
         }
         public void Sick_Pressed(object sender, EventArgs e)
         {
-            //selectedImage = storedImages[3];
             selectedImageNumber = 3;
         }
         public void Irritated_Pressed(object sender, EventArgs e)
         {
-            //selectedImage = storedImages[4];
             selectedImageNumber = 4;
         }
         public void Bleh_Pressed(object sender, EventArgs e)
         {
-            //    selectedImage = storedImages[5];
             selectedImageNumber = 5;
         }
+
+
+        public void HappyMood(object sender, EventArgs e)
+        {
+            if (selectedImageNumber == 0)
+            {
+                insight = "Happy insight";
+            }
+        }
+        public void SadMood(object sender, EventArgs e)
+        {
+            if (selectedImageNumber == 0)
+            {
+                insight = "Sad insight";
+            }
+        }
+        public void AngryMood(object sender, EventArgs e)
+        {
+            if (selectedImageNumber == 0)
+            {
+                insight = "Angry insight";
+            }
+        }
+        public void SickMood(object sender, EventArgs e)
+        {
+            if (selectedImageNumber == 0)
+            {
+                insight = "Sick insight";
+            }
+        }
+        public void IrritatedMood(object sender, EventArgs e)
+        {
+            if (selectedImageNumber == 0)
+            {
+                insight = "Irritated insight";
+            }
+        }
+        public void BlehMood(object sender, EventArgs e)
+        {
+            if (selectedImageNumber == 0)
+            {
+                insight = "Bleh insight";
+            }
+        }
+
     }
 }
