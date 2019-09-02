@@ -109,8 +109,9 @@
     <BundleResource Include="Resources\mood-tired.png" />
     <BundleResource Include="Resources\background.jpg" />
     <BundleResource Include="Resources\background.png" />
-    <BundleResource Include="Resources\button-history.png" />
-    <BundleResource Include="Resources\button-newMood.png" />
     <BundleResource Include="Resources\splash.png" />
+    <BundleResource Include="Resources\gradient.jpg" />
+    <BundleResource Include="Resources\button-newMood.png" />
+    <BundleResource Include="Resources\button-history.png" />
   </ItemGroup>
 </Project>

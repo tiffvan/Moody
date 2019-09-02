@@ -17,22 +17,19 @@ namespace Moody.Views
 
             foreach (var keyValuePair in Application.Current.Properties)
             {
+                if (keyValuePair.Key.EndsWith("_moodImage", StringComparison.Ordinal))
+                {
+                    imageMood.Source = NewMood.storedImages[(int)keyValuePair.Value].Source;
+                }
 
                 if ((keyValuePair.Value != null) && keyValuePair.Key.EndsWith("_questionData", StringComparison.Ordinal))
                 {
                     lblTodayQuestion.Text = keyValuePair.Value.ToString();
                 }
 
-                if (keyValuePair.Key.EndsWith("_moodImage", StringComparison.Ordinal))
-                {
-                    imageMood.Source = NewMood.storedImages[(int)keyValuePair.Value].Source;
-                }
+                lblQuote.Text = (string)Application.Current.Properties["_quote"];
 
-                if (keyValuePair.Key.EndsWith("_insightText", StringComparison.Ordinal))
-                {
-                    lblInsight.Text = keyValuePair.Value.ToString();
-                }
-
+                lblSongs.Text = (string)Application.Current.Properties["_songs"];
             }
         }
 

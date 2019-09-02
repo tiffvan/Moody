@@ -25,11 +25,11 @@
             <BoxView HeightRequest="2"
                      Color="Black"
                      Margin="0,15,0,0" />
-            <Label Text="Insights"
+            <Label Text="Quote"
                    FontSize="Large"
                    HorizontalTextAlignment="Center"
                    Margin="0,15,0,0" />
-            <Label x:Name="lblInsight"
+            <Label x:Name="lblQuote"
                        Text=""
                        HorizontalTextAlignment="Center"
                        Margin="30,8,30,0" />
@@ -40,11 +40,8 @@
                    FontSize="Large"
                    HorizontalTextAlignment="Center"
                    Margin="0,15,0,0" />
-            <Label Text="Lorem ipsum"
-                   Margin="30,15,30,0" />
-            <Label Text="Lorem ipsum"
-                   Margin="30,15,30,0" />
-            <Label Text="Lorem ipsum"
+            <Label x:Name="lblSongs"
+                   Text=""
                    Margin="30,15,30,0" />
         </StackLayout>
     </ContentPage.Content>

@@ -93,11 +93,11 @@
                         <StackLayout Grid.Row="1"
                                      Grid.Column="5">
                             <ImageButton x:Name="moodBleh"
-                                         Pressed="Bleh_Pressed"
+                                         Pressed="Bored_Pressed"
                                          Source="mood-bleh.png"
                                          HeightRequest="60"
                                          WidthRequest="60" />
-                            <Label Text="Bleh"
+                            <Label Text="Bored"
                                    HorizontalTextAlignment="Center" />
                         </StackLayout>
                     </Grid>
