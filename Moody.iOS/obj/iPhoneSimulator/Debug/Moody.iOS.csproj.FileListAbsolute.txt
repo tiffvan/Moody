@@ -132,8 +132,6 @@
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/mood-sad.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/mood-sick.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/mood-tired.png
-/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/background.png
-/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/splash.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/button-newMood.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/button-history.png
 /Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/

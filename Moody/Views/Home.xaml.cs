@@ -11,6 +11,8 @@ namespace Moody.Views
         {
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetHasNavigationBar(this, false);
+            BackgroundImageSource = "homeBG.jpg";
         }
 
         public void OnButtonClickNewMood(object o, EventArgs e)

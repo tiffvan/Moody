@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Moody.Views.NewMood"
-             Title="Add a new mood">
+             BackgroundImage="newMoodBG.jpg">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType=":Entry">
@@ -15,9 +15,10 @@
         <StackLayout>
             <StackLayout>
                 <Label Text="Pick your mood"
+                       TextColor="#FAD102"
                        FontSize="Large"
                        HorizontalTextAlignment="Center"
-                       Margin="0,30,15,0" />
+                       Margin="0,120,15,0" />
                 <StackLayout Margin="45,10,45,0">
                     <Grid Margin="0,15,0,0">
                         <Grid.RowDefinitions>
@@ -43,6 +44,8 @@
                                          HeightRequest="60"
                                          WidthRequest="60" />
                             <Label Text="Happy"
+                                   TextColor="#FAD102"
+                                   Margin="0,0,0,20"
                                    HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <!-- SAD -->
@@ -54,6 +57,8 @@
                                          HeightRequest="60"
                                          WidthRequest="60" />
                             <Label Text="Sad"
+                                   TextColor="#FAD102"
+                                   Margin="0,0,0,20"
                                    HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <!-- ANGRY -->
@@ -65,6 +70,8 @@
                                          HeightRequest="60"
                                          WidthRequest="60" />
                             <Label Text="Angry"
+                                   TextColor="#FAD102"
+                                   Margin="0,0,0,20"
                                    HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <!-- SICK -->
@@ -76,6 +83,7 @@
                                          HeightRequest="60"
                                          WidthRequest="60" />
                             <Label Text="Sick"
+                                   TextColor="#FAD102"
                                    HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <!-- IRRITATED -->
@@ -87,6 +95,7 @@
                                          HeightRequest="60"
                                          WidthRequest="60" />
                             <Label Text="Irritated"
+                                   TextColor="#FAD102"
                                    HorizontalTextAlignment="Center" />
                         </StackLayout>
                         <!-- BLEH -->
@@ -98,19 +107,21 @@
                                          HeightRequest="60"
                                          WidthRequest="60" />
                             <Label Text="Bored"
+                                   TextColor="#FAD102"
                                    HorizontalTextAlignment="Center" />
                         </StackLayout>
                     </Grid>
                 </StackLayout>
             </StackLayout>
             <!-- QUESTION -->
-            <StackLayout Margin="0,100,0,0">
+            <StackLayout Margin="0,120,0,0">
                 <Label Text="What happenend today?"
+                       TextColor="#FAD102"
                        FontSize="Large"
                        HorizontalTextAlignment="Center" />
                 <Entry x:Name="todayQuestion"
                        PlaceholderColor="Gray"
-                       Placeholder="What is up?"
+                       Placeholder="What's up?"
                        HeightRequest="40"
                        Margin="0,15,0,0"
                        HorizontalOptions="CenterAndExpand"
@@ -127,7 +138,7 @@
                         TextColor="Black"
                         HorizontalOptions="CenterAndExpand"
                         VerticalOptions="CenterAndExpand"
-                        BackgroundColor="#ffd200" />
+                        BackgroundColor="#FAD102" />
             </StackLayout>
 
             <StackLayout>

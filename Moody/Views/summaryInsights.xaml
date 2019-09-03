@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Moody.Views.summaryInsights"
-             Title="Insights">
+             x:Class="Moody.Views.summaryInsights">
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="DoneButton"
                      Text="Done"
@@ -16,32 +15,37 @@
                        WidthRequest="80"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
-                       Margin="0,30,0,0" />
+                       Margin="0,100,0,0" />
                 <Label x:Name="lblTodayQuestion"
                        Text=""
+                       TextColor="#FAD102"
                        HorizontalTextAlignment="Center"
                        Margin="0,15,0,0" />
             </StackLayout>
             <BoxView HeightRequest="2"
-                     Color="Black"
+                     Color="#FAD102"
                      Margin="0,15,0,0" />
             <Label Text="Quote"
+                   TextColor="#FAD102"
                    FontSize="Large"
                    HorizontalTextAlignment="Center"
                    Margin="0,15,0,0" />
             <Label x:Name="lblQuote"
                        Text=""
+                   TextColor="#FAD102"
                        HorizontalTextAlignment="Center"
                        Margin="30,8,30,0" />
             <BoxView HeightRequest="2"
-                     Color="Black"
+                     Color="#FAD102"
                      Margin="0,15,0,0" />
             <Label Text="Music suggestions"
+                   TextColor="#FAD102"
                    FontSize="Large"
                    HorizontalTextAlignment="Center"
                    Margin="0,15,0,0" />
             <Label x:Name="lblSongs"
                    Text=""
+                   TextColor="#FAD102"
                    Margin="30,15,30,0" />
         </StackLayout>
     </ContentPage.Content>

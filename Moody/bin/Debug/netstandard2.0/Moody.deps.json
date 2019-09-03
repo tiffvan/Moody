@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "875b4f1248bb37d16b5c81c771a15d0fa61039a5"
+    "signature": "1484f060a52b10a5fbe15203ade8621addbdec01"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,12 +12,15 @@
           "MvvmLight": "5.4.1.1",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "4.0.0.425677"
+          "Xamarin.Forms": "4.0.0.425677",
+          "uikit": "2.25.0",
+          "Xamarin.iOS": "0.0.0.0"
         },
         "runtime": {
           "Moody.dll": {}
         }
       },
+      "jQuery/1.9.0": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "MvvmLight/5.4.1.1": {},
       "NETStandard.Library/2.0.3": {
@@ -31,6 +34,11 @@
             "assemblyVersion": "4.1.4.0",
             "fileVersion": "4.6.26515.6"
           }
+        }
+      },
+      "uikit/2.25.0": {
+        "dependencies": {
+          "jQuery": "1.9.0"
         }
       },
       "Xamarin.Essentials/1.1.0": {
@@ -59,6 +67,14 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Xamarin.iOS/0.0.0.0": {
+        "runtime": {
+          "Xamarin.iOS.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
@@ -67,6 +83,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jQuery/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bS6OGSd/QL39vKKhATpeehgZDCzV6foRJ52EocEGAB29VetwXkQHN6KQIBlBbW9VJzuHr+rQxHYZ13MnPGQ/vw==",
+      "path": "jquery/1.9.0",
+      "hashPath": "jquery.1.9.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -96,6 +119,13 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
+    "uikit/2.25.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MmW3i2UwI/9mxCz3YO85GRisBYSEfQMqjQOn/wFu31HtUwdu7hiSCSiaN++Pib6tYJNwFm1dLhIiCXPhDwY3dw==",
+      "path": "uikit/2.25.0",
+      "hashPath": "uikit.2.25.0.nupkg.sha512"
+    },
     "Xamarin.Essentials/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -109,6 +139,11 @@
       "sha512": "sha512-drwO/MimaMUnmvkULASYjU5MRciVIJyiLxD3ihFq8P+DWynQZ2NLNej0Vrs3k2L7UdmqvcgCxEJdfT7uFl2KVg==",
       "path": "xamarin.forms/4.0.0.425677",
       "hashPath": "xamarin.forms.4.0.0.425677.nupkg.sha512"
+    },
+    "Xamarin.iOS/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

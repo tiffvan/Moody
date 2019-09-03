@@ -8,7 +8,7 @@
 		<array>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/bundle/AppIcon60x60@2x.png</string>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/bundle/AppIcon60x60@3x.png</string>
-			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/bundle/LaunchImage-700-568h@2x.png</string>
+			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/bundle/LaunchImage-1-700-568h@2x.png</string>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/bundle/Assets.car</string>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/partial-info.plist</string>
 		</array>
@@ -66,15 +66,15 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./LaunchImage.launchimage/[ipad][][2x][portrait][full-screen][7.0][1d][(null)]</string>
-				<string>./LaunchImage.launchimage/[iphone][][3x][landscape][full-screen][12.0][2d][(null)]</string>
-				<string>./LaunchImage.launchimage/[iphone][][3x][portrait][full-screen][12.0][2d][(null)]</string>
-				<string>./LaunchImage.launchimage/[iphone][][3x][portrait][full-screen][12.0][2d][splash.png]</string>
+				<string>./LaunchImage-1.launchimage/[ipad][][2x][portrait][full-screen][7.0][1d][(null)]</string>
+				<string>./LaunchImage-1.launchimage/[iphone][][3x][landscape][full-screen][12.0][2d][(null)]</string>
+				<string>./LaunchImage-1.launchimage/[iphone][][3x][portrait][full-screen][12.0][2d][(null)]</string>
+				<string>./LaunchImage-1.launchimage/[iphone][][3x][portrait][full-screen][12.0][2d][splash.png]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
-			<string>The launch image set "LaunchImage" has 5 unassigned children.</string>
+			<string>The launch image set "LaunchImage-1" has 5 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>

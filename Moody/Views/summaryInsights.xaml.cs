@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
+using UIKit;
 
 namespace Moody.Views
 {
@@ -14,6 +15,8 @@ namespace Moody.Views
         {
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
+            BackgroundImageSource = "insightMood.jpg";
+            UINavigationBar.Appearance.Translucent = true;
 
             foreach (var keyValuePair in Application.Current.Properties)
             {
@@ -35,7 +38,7 @@ namespace Moody.Views
 
         public void DoneButton(object o, EventArgs e)
         {
-            Navigation.PushAsync(new History());
+            Navigation.PushAsync(new Home());
         }
     }
 }

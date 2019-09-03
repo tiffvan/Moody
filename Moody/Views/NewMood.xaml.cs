@@ -17,6 +17,8 @@ namespace Moody.Views
             InitializeComponent();
             StoreImages();
 
+            BackgroundImageSource = "newMoodBG.jpg";
+
         }
 
         //where images are coming from
@@ -43,7 +45,7 @@ namespace Moody.Views
 
             AddQuestion();
 
-            DisplayAlert("Success", "Here are some insights on your mood!", "OK");
+            DisplayAlert("Success", "Here are somethings for your mood!", "OK");
 
             Navigation.PushAsync(new summaryInsights());
         }

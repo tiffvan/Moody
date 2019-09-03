@@ -6,8 +6,8 @@
              mc:Ignorable="d" x:Class="Moody.App">
     <Application.Resources>
         <Style TargetType ="NavigationPage">
-            <Setter Property="BarBackgroundColor" Value="#ffd200"></Setter>
-            <Setter Property="BarTextColor" Value="Black"></Setter>
+            <Setter Property="BarBackgroundColor" Value="#B71485"></Setter>
+            <Setter Property="BarTextColor" Value="#FAD102"></Setter>
         </Style>
     </Application.Resources>
 </Application>

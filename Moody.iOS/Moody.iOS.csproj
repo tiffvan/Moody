@@ -75,10 +75,10 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\splash.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon2x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon3x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon180.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage-1.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage-1.launchimage\splash.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -107,11 +107,10 @@
     <BundleResource Include="Resources\mood-sad.png" />
     <BundleResource Include="Resources\mood-sick.png" />
     <BundleResource Include="Resources\mood-tired.png" />
-    <BundleResource Include="Resources\background.jpg" />
-    <BundleResource Include="Resources\background.png" />
-    <BundleResource Include="Resources\splash.png" />
-    <BundleResource Include="Resources\gradient.jpg" />
     <BundleResource Include="Resources\button-newMood.png" />
     <BundleResource Include="Resources\button-history.png" />
+    <BundleResource Include="Resources\newMoodBG.jpg" />
+    <BundleResource Include="Resources\insightMood.jpg" />
+    <BundleResource Include="Resources\homeBG.jpg" />
   </ItemGroup>
 </Project>
