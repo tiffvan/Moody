@@ -1,8 +1,5 @@
 ﻿<Properties StartupConfiguration="{4B828B69-1303-42C3-A5B3-B81B35A8B454}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Moody.iOS/Info.plist">
-    <Files>
-      <File FileName="Moody.iOS/Info.plist" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
