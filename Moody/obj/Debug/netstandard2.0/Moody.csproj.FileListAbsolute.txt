@@ -26,7 +26,6 @@
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Views/Home.xaml.g.cs
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Views/NewMood.xaml.g.cs
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Views/summaryInsights.xaml.g.cs
-/Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Moody.csproj.CoreCompileInputs.cache
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Moody.AssemblyInfoInputs.cache
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/Moody.AssemblyInfo.cs
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/obj/Debug/netstandard2.0/XamlC.stamp

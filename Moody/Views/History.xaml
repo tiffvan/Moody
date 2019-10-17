@@ -9,16 +9,6 @@
                      Clicked="HomeButton"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <ListView ItemsSource="{Binding HistoryItems}" HasUnevenRows="True" SeparatorVisibility="Default" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Margin="6,4,6,4" BackgroundColor="White">
-                            <Label Text="{Binding MoodFace}" Margin="8" FontSize="Medium"/>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <ListView x:Name="listView" ItemsSource="{Binding Moods}"></ListView>
     </ContentPage.Content>
 </ContentPage>
