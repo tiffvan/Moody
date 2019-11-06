@@ -20,9 +20,10 @@ namespace Moody.Views
         public NewMood()
         {
             InitializeComponent();
+            BackgroundColor = Color.FromHex("212121");
             StoreImages();
 
-            BackgroundImageSource = "newMoodBG.jpg";
+            //BackgroundImageSource = "newMoodBG.jpg";
 
         }
 
@@ -92,16 +93,16 @@ namespace Moody.Views
 
 
 
-        
-                ////convert app storage json to a list, add user input to that list
-                //newMoods = JsonConvert.DeserializeObject<List<String>>(Application.Current.Properties["Moods"].ToString());
-                //newMoods.Add(emotion);
 
-                ////convert back to json and readd to app storage
-                //var jsonValueToSave = JsonConvert.SerializeObject(newMoods);
-                //Application.Current.Properties["Moods"] = jsonValueToSave;
-                //Console.WriteLine(jsonValueToSave);
-            
+            ////convert app storage json to a list, add user input to that list
+            newMoods = JsonConvert.DeserializeObject<List<String>>(Application.Current.Properties["Moods"].ToString());
+            newMoods.Add(emotion);
+
+            ////convert back to json and read to app storage
+            //var jsonValueToSave = JsonConvert.SerializeObject(newMoods);
+            //Application.Current.Properties["Moods"] = jsonValueToSave;
+            //Console.WriteLine(jsonValueToSave);
+
 
             Application.Current.SavePropertiesAsync();
             

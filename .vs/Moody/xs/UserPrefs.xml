@@ -1,7 +1,10 @@
 ﻿<Properties StartupConfiguration="{4B828B69-1303-42C3-A5B3-B81B35A8B454}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Moody/Views/NewMood.xaml.cs">
     <Files>
-      <File FileName="Moody/Views/NewMood.xaml.cs" Line="90" Column="52" />
+      <File FileName="Moody/Views/NewMood.xaml" Line="152" Column="37" />
+      <File FileName="Moody/App.xaml" Line="10" Column="59" />
+      <File FileName="Moody/Views/NewMood.xaml.cs" Line="179" Column="1" />
+      <File FileName="Moody/Views/NewMood.xaml.cs" Line="179" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,11 +12,11 @@
           <Node name="Moody" expanded="True">
             <Node name="Moody" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="History.xaml" expanded="True" />
                 <Node name="NewMood.xaml" expanded="True">
                   <Node name="NewMood.xaml.cs" selected="True" />
                 </Node>
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -21,7 +24,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Moody.Android PreferredExecutionTarget="Android.Nexus_5X_API_28" />
-  <MonoDevelop.Ide.ItemProperties.Moody.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5172CDDF-3161-4085-846F-69F9D18C7609" />
+  <MonoDevelop.Ide.ItemProperties.Moody.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.548C7073-FE85-44EC-98C8-DC166653E91D" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

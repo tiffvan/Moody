@@ -12,7 +12,7 @@ namespace Moody.Views
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
-            BackgroundImageSource = "homeBG.jpg";
+            BackgroundColor = Color.FromHex("212121");
         }
 
         public void OnButtonClickNewMood(object o, EventArgs e)
