@@ -75,10 +75,11 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon120.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon180.png" />
     <ImageAsset Include="Assets.xcassets\LaunchImage-1.launchimage\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\LaunchImage-1.launchimage\splash.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage-1.launchimage\Launch.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage-1.launchimage\Launch copy.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon-1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

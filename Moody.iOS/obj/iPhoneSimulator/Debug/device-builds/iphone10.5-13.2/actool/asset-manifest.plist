@@ -8,7 +8,8 @@
 		<array>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/bundle/AppIcon60x60@2x.png</string>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/bundle/AppIcon60x60@3x.png</string>
-			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/bundle/LaunchImage-1-700-568h@2x.png</string>
+			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/bundle/LaunchImage-1-800-Portrait-736h@3x.png</string>
+			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/bundle/LaunchImage-1-800-667h@2x.png</string>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/bundle/Assets.car</string>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/partial-info.plist</string>
 		</array>
@@ -66,10 +67,33 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+				<string>./LaunchImage-1.launchimage</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>Launch images are deprecated in iOS 13.0. Use a launch storyboard or XIB instead.</string>
+			<key>type</key>
+			<string>Deprecation</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage-1.launchimage</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>An iPhone Retina (4-inch) launch image for iOS 7.0 and later is required.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
 				<string>./LaunchImage-1.launchimage/[ipad][][2x][portrait][full-screen][7.0][1d][(null)]</string>
 				<string>./LaunchImage-1.launchimage/[iphone][][3x][landscape][full-screen][12.0][2d][(null)]</string>
 				<string>./LaunchImage-1.launchimage/[iphone][][3x][portrait][full-screen][12.0][2d][(null)]</string>
-				<string>./LaunchImage-1.launchimage/[iphone][][3x][portrait][full-screen][12.0][2d][splash.png]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/tiffanyvandermerwe/Projects/Moody/Moody.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-13.2/actool/cloned-assets/Assets.xcassets</string>

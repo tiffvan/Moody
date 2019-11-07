@@ -23,8 +23,6 @@ namespace Moody.Views
             BackgroundColor = Color.FromHex("212121");
             StoreImages();
 
-            //BackgroundImageSource = "newMoodBG.jpg";
-
         }
 
         //where images are coming from
@@ -79,24 +77,19 @@ namespace Moody.Views
 
             var emotion = "happy";
             moods = JsonConvert.DeserializeObject<List<String>>(Application.Current.Properties["Moods"].ToString());
-
             moods.Add(emotion);
 
-            //Application.Current.Properties["Moods"] = emotion;
+            Application.Current.Properties["Moods"] = emotion;
 
-           
-                //convert user input to json and save to app storage
-                var jsonValueToSave = JsonConvert.SerializeObject(moods);
-                Application.Current.Properties["Moods"] = jsonValueToSave;
-                Console.WriteLine(jsonValueToSave);
+            //convert user input to json and save to app storage
 
-
-
-
+            var jsonValueToSave = JsonConvert.SerializeObject(moods);
+            Application.Current.Properties["Moods"] = jsonValueToSave;
+            Console.WriteLine(jsonValueToSave);
 
             ////convert app storage json to a list, add user input to that list
-            newMoods = JsonConvert.DeserializeObject<List<String>>(Application.Current.Properties["Moods"].ToString());
-            newMoods.Add(emotion);
+            //newMoods = JsonConvert.DeserializeObject<List<String>>(Application.Current.Properties["Moods"].ToString());
+            //newMoods.Add(emotion);
 
             ////convert back to json and read to app storage
             //var jsonValueToSave = JsonConvert.SerializeObject(newMoods);
@@ -182,11 +175,6 @@ namespace Moody.Views
             Application.Current.Properties["Moods"] = jsonValueToSave;
             Console.WriteLine(jsonValueToSave);
             Application.Current.SavePropertiesAsync();
-        }
-
-        void AddMoodToHistory()
-        {
-
         }
 
     }

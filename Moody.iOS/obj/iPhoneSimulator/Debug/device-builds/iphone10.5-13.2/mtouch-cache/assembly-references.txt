@@ -24,4 +24,3 @@
 /Users/tiffanyvandermerwe/Projects/Moody/Moody/bin/Debug/netstandard2.0/Moody.dll
 /Users/tiffanyvandermerwe/.nuget/packages/xamarin.forms/4.3.0.947036/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/tiffanyvandermerwe/.nuget/packages/newtonsoft.json/12.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
-/Users/tiffanyvandermerwe/.nuget/packages/xamarin.forms.pancakeview/1.3.5/lib/xamarinios10/Xamarin.Forms.PancakeView.dll

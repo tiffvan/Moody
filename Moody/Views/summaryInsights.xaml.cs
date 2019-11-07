@@ -14,8 +14,8 @@ namespace Moody.Views
         public summaryInsights()
         {
             InitializeComponent();
+            BackgroundColor = Color.FromHex("212121");
             NavigationPage.SetHasBackButton(this, false);
-            BackgroundImageSource = "insightMood.jpg";
             UINavigationBar.Appearance.Translucent = true;
 
             foreach (var keyValuePair in Application.Current.Properties)

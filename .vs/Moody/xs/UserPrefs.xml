@@ -1,23 +1,15 @@
 ﻿<Properties StartupConfiguration="{4B828B69-1303-42C3-A5B3-B81B35A8B454}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Moody/Views/NewMood.xaml.cs">
-    <Files>
-      <File FileName="Moody/Views/NewMood.xaml" Line="152" Column="37" />
-      <File FileName="Moody/App.xaml" Line="10" Column="59" />
-      <File FileName="Moody/Views/NewMood.xaml.cs" Line="179" Column="1" />
-      <File FileName="Moody/Views/NewMood.xaml.cs" Line="179" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Moody" expanded="True">
             <Node name="Moody" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="NewMood.xaml" expanded="True">
-                  <Node name="NewMood.xaml.cs" selected="True" />
-                </Node>
+                <Node name="History.xaml" selected="True" />
               </Node>
-              <Node name="App.xaml" expanded="True" />
             </Node>
+            <Node name="Moody.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

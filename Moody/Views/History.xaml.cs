@@ -14,6 +14,7 @@ namespace Moody.Views
         public History()
         {
             InitializeComponent();
+            BackgroundColor = Color.FromHex("212121");
             NavigationPage.SetHasBackButton(this, false);
 
             

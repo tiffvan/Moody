@@ -10,12 +10,17 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout x:Name="showStoredInfo">
+                <Label Text="For Your Mood"
+                       TextColor="#FAD102"
+                       FontSize="35.0"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,30,15,0" />
                 <Image x:Name="imageMood"
                        HeightRequest="80"
                        WidthRequest="80"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
-                       Margin="0,100,0,0" />
+                       Margin="0,30,0,0" />
                 <Label x:Name="lblTodayQuestion"
                        Text=""
                        TextColor="#FAD102"
@@ -26,10 +31,15 @@
                      Color="#FAD102"
                      Margin="0,15,0,0" />
             <Label Text="Quote"
+                       TextColor="#FAD102"
+                       FontSize="Title"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,20,15,0" />
+            <!--<Label Text="Quote"
                    TextColor="#FAD102"
                    FontSize="Large"
                    HorizontalTextAlignment="Center"
-                   Margin="0,15,0,0" />
+                   Margin="0,15,0,0" />-->
             <Label x:Name="lblQuote"
                        Text=""
                    TextColor="#FAD102"
@@ -39,10 +49,15 @@
                      Color="#FAD102"
                      Margin="0,15,0,0" />
             <Label Text="Music suggestions"
+                       TextColor="#FAD102"
+                       FontSize="Title"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,20,15,0" />
+            <!--<Label Text="Music suggestions"
                    TextColor="#FAD102"
                    FontSize="Large"
                    HorizontalTextAlignment="Center"
-                   Margin="0,15,0,0" />
+                   Margin="0,15,0,0" />-->
             <Label x:Name="lblSongs"
                    Text=""
                    TextColor="#FAD102"
