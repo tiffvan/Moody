@@ -79,7 +79,7 @@ namespace Moody.Views
             moods = JsonConvert.DeserializeObject<List<String>>(Application.Current.Properties["Moods"].ToString());
             moods.Add(emotion);
 
-            Application.Current.Properties["Moods"] = emotion;
+            //Application.Current.Properties["Moods"] = emotion;
 
             //convert user input to json and save to app storage
 
